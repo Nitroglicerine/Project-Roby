@@ -1,0 +1,35 @@
+.header__row {
+  display: flex;
+  justify-content: space-between;
+}
+.header__text {
+  margin: 39px 0px 0 72px;
+  p {
+    padding-bottom: 16px;
+  }
+  color: #747474;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+.header__mail {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+.header__buttons {
+  margin: 29px 90px 0 0;
+  align-items: flex-end;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+.header__btn {
+  background-color: transparent;
+  margin-right: 20px;
+}
+.header__btn:nth-child(5){margin-right:5px;}
+.bay__calc {
+  display: inline-block;
+  color: #747474;
+}
