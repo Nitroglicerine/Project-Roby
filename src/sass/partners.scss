@@ -1,0 +1,36 @@
+.partners__row {
+}
+.partners__text {
+  margin: 120px 0px 37px 0px;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.partners-text__other {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+.partners__logo {
+  margin: 0 176px 0 241px;
+  @media screen and (min-width: 440px) {
+    margin-left: auto;
+    width: 470px;
+  }
+
+  @media screen and (min-width: 606px) {
+    margin-left: auto;
+    width: 636px;
+  }
+  @media screen and (min-width: 931px) {
+    margin-left: auto;
+    width: 947px;
+  }
+  @media screen and (min-width: 1170px) {
+    margin-left: auto;
+    max-width: 100%;
+  }
+}
