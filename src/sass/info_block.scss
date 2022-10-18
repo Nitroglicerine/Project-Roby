@@ -34,25 +34,82 @@
 }
 
 .info-block__menu {
+  @media screen and (max-width: 1253px) {
+    font-size: 14px;
+    margin-left: 800px;
+  }
+  @media screen and (max-width: 1105px) {
+    font-size: 14px;
+    margin-left: 700px;
+  }
+  @media screen and (max-width: 1000px) {
+    font-size: 14px;
+    margin-left: 600px;
+  }
+  @media screen and (max-width: 907px) {
+    font-size: 14px;
+    margin-left: 500px;
+    max-width: 334px;
+    max-height: 175px;
+  }
+  @media screen and (max-width: 805px) {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 175px;
+    margin-left: 300px;
+    max-width: 334px;
+    max-height: 175px;
+  }
+  @media screen and (max-width: 735px) {
+    margin-left: 200px;
+  }
+  @media screen and (max-width: 643px) {
+    margin-left: 120px;
+    font-size: 12px;
+  }
+  @media screen and (max-width: 526px) {
+    font-size: 10px;
+  }
+  @media screen and (max-width: 508px) {
+    font-size: 8px;
+  }
+  @media screen and (max-width: 468px) {
+    font-size: 6px;
+  }
 
   max-width: 384px;
   max-height: 202px;
- 
+
   margin-right: 120px;
   margin-left: 937px;
 }
 .info-block__menu1 {
-  
   line-height: 25px;
 }
 
 .info-block__start {
-  
-
- 
+  @media screen and (max-width: 1300px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 1275px) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 1253px) {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 508px) {
+    font-size: 12px;
+  }
+  @media screen and (max-width: 468px) {
+    font-size: 11px;
+  }
+  @media screen and (max-width: 468px) {
+    font-size: 9px;
+  }
   border-bottom: 1px black solid;
   padding-bottom: 20px;
-white-space: nowrap;
+  white-space: nowrap;
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
@@ -63,11 +120,34 @@ white-space: nowrap;
 }
 .info-block__menu2 {
   line-height: 25px;
+  @media screen and (max-width: 805px) {
+    font-size: 14px;
+    margin-top: -68px;
+
+    max-width: 334px;
+    max-height: 175px;
+  }
+  @media screen and (max-width: 643px) {
+    font-size: 12px;
+    margin-top: -70px;
+  }
+  @media screen and (max-width: 526px) {
+    font-size: 10px;
+    margin-top: -69px;
+  }
+  @media screen and (max-width: 508px) {
+    font-size: 8px;
+  }
+  @media screen and (max-width: 468px) {
+    font-size: 6px;
+  }
 }
 .letter__line {
   padding-top: 20px;
 }
-.info-block__calc{white-space: nowrap;
+.info-block__calc {
+  white-space: nowrap;
 
   float: right;
-  text-align: right;}
+  text-align: right;
+}
