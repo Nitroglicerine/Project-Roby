@@ -1,0 +1,76 @@
+
+.our-blog__head {display: flex;
+    justify-content: space-between;
+   
+}
+.our-blog__title {
+    margin: 173px 0px  0px  120px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    text-transform: uppercase;
+    @media screen and (max-width: 685px) {margin-left: 5px;}
+}
+.our-blog-title__other {
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 72px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    @media screen and (max-width: 475px) {margin-left: 10px;}
+}
+.our-blog__icon { 
+    margin: 150px 121px 0 0;
+     fill: black;
+     stroke:#fff;
+  &:hover{fill:white; stroke: black;
+transition: fill 0.1s ease-in;}
+}
+.our-blog__cards {
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    @media screen and (max-width: 607px) {flex-wrap: wrap;}
+}
+.our-blog__card1 {
+    
+    max-width: 373px;
+   max-height: 382px;
+   @media screen and (max-width: 607px) {margin-bottom: 240px;}
+}
+.our-blog__card2 {
+    margin: 0 40px 0 40px;
+    max-width: 373px;
+    max-height: 382px;
+    @media screen and (max-width: 607px) {margin:0 0 240px 0;}
+   
+}
+
+.our-blog__card3 {
+  
+    max-width: 373px;
+    max-height: 382px;
+}
+.our-blog__button {
+    margin-top: 44px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+    &:hover{background-color: black; color: #fff; transition: 0.1s ease-in;}
+}
+.our-blog__text {
+    margin-top: 19px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+    
+}
+.our-blog__date {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;   
+    color: #8F8F8F;
+}
